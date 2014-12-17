@@ -1,0 +1,23 @@
+{
+    "name": "captbaritone/album-cover-generator",
+    "description": "Randomly generate album covers",
+    "authors": [
+        {
+            "name": "Jordan Eldredge",
+            "email": "jordaneldredge@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "4.*",
+        "php-vcr/php-vcr": "dev-master",
+        "php-vcr/phpunit-testlistener-vcr": "dev-master",
+        "twig/twig": "1.*"
+
+    },
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
